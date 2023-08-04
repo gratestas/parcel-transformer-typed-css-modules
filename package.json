@@ -1,0 +1,35 @@
+{
+  "name": "parcel-transformer-typed-css-modules",
+  "version": "1.0.0",
+  "description": "A Parcel transformer to generate .d.ts files for .module.css files using typed-css-modules, enabling type-safe usage of CSS classes in TypeScript.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "@gratestas",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gratestas/parcel-transformer-typed-css-moduleshttps://github.com/Quramy/typed-css-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gratestas/parcel-transformer-typed-css-modules/issues"
+  },
+  "homepage": "https://github.com/gratestas/parcel-transformer-typed-css-modules#readme",
+  "engines": {
+    "node": ">= 14.0.0",
+    "parcel": ">= 2.0.0"
+  },
+  "scripts": {
+    "test": "cd ../test-project && npm install && npm run build"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.9.3",
+    "typed-css-modules": "^0.7.2"
+  },
+  "keywords": [
+    "parcel 2",
+    "parcel-transformer",
+    "typed-css-modules",
+    "typescript",
+    "ts",
+    "css-modules"
+  ]
+}

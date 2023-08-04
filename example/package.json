@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "description": "",
+  "source": "src/index.tsx",
+  "main": "dist/main.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel-transformer-typed-css-modules": "file:../"
+  },
+  "dependencies": {
+    "parcel": "^2.9.3"
+  }
+}
