@@ -7,7 +7,7 @@
   "author": "@gratestas",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gratestas/parcel-transformer-typed-css-moduleshttps://github.com/Quramy/typed-css-modules.git"
+    "url": "https://github.com/gratestas/parcel-transformer-typed-css-modules"
   },
   "bugs": {
     "url": "https://github.com/gratestas/parcel-transformer-typed-css-modules/issues"
